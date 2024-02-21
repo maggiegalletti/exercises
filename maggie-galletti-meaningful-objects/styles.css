@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(83, 16, 16);
+    color: rgb(255, 146, 146);
+}
+
+a{
+    color: rgb(168, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 85, 85)
+}
+.dice{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.sadsquib{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.switch{
+    position: absolute;
+    top: 200px;
+    left: 860px;
+}
+
+.sketchbook{
+    position: absolute;
+    top: 500px;
+    left: 780px;
+}
+
+.blanket{
+    position: absolute;
+    top: 500px;
+    left: 475px;
+}
+
+.description{
+    position: static;
+    padding-top: 175px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    font-family: terminal-grotesque;
+    font-size: 30px;
+}
+
+@font-face{
+    font-family: terminal-grotesque;
+    src: url(fonts/terminal-grotesque-webfont.woff);
+}
